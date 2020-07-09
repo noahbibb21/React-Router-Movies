@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import axios from 'axios';
 import {Link} from 'react-router-dom'
+import React, { useState, useEffect } from 'react';
 
 const MovieList = props => {
   const [movies, setMovies] = useState([])
